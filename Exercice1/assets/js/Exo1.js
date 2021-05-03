@@ -6,9 +6,11 @@ const verification = () => {
     let testConfirmPassword = document.form.confirmPassword.value
 
     if(testPassword == testConfirmPassword){
-        alert("Mot de passe identiques");
+        document.form.password.style.borderColor = "green";
+        document.form.confirmPassword.style.borderColor = "green";
     }
     else{
-        alert("Mot de passe différents")
+        document.form.password.style.borderColor = "red";
+        document.form.confirmPassword.style.borderColor = "red";
     }
 }
