@@ -1,0 +1,14 @@
+#errorMail{
+    display: none;
+    color: red;
+}
+
+#errorName{
+    display: none;
+    color: red;
+}
+
+#errorAge{
+    display: none;
+    color: red;
+}

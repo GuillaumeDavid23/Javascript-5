@@ -2,9 +2,38 @@
 <html lang="fr" dir="ltr">
 <head>
   <meta charset="utf-8" />
+  <!-- Feuille de style -->
+  <link rel="stylesheet" href="assets/css/style.css">
   <title>Exercice 3</title>
 </head>
 <body>
-  
+  <!-- Formulaire -->
+  <form name="form">
+    <!-- Champ nom -->
+    <label for="user">Nom :  </label>
+    <input type="text" name="user" id="user" value="0"  required> <br>
+    <!-- Si nom est faux -->
+    <p id="errorName">Veuillez renseigner ce champ correctement</p>
+
+    <!-- Champ Mail -->
+    <label for="mail"> Mail : </label>
+    <input type="email" name="mail" id="mail" required><br>
+
+    <!-- Si mail est faux -->
+    <p id="errorMail">Veuillez renseigner ce champ correctement</p>
+
+    <!-- Champ Age -->
+    <label for="age"> Age : </label>
+    <input type="text" name="age" id="age" required><br>
+
+    <!-- Si age est faux -->
+    <p id="errorAge">Veuillez renseigner ce champ correctement</p>
+
+    <!-- Bouton d'envoi -->
+    <button type="button" onClick="validate()">Envoyer</button>
+</form>
+
+<!-- Script -->
+<script src="assets/js/Exo3.js"></script>
 </body>
 </html>
