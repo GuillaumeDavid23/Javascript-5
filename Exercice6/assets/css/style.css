@@ -1,0 +1,6 @@
+.champ:focus { 
+    outline: none;
+    border-color: red;
+    color: wheat;
+    background-color: green;
+} 
